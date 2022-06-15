@@ -1,13 +1,14 @@
 <template>
-  <div class="home">
-    <h2>这里是首页</h2>
+  <div>
+    <h2>这是profile页</h2>
   </div>
 </template>
 
 <script>
 export default {
-  name: "home",
+  name: "profile",
 };
 </script>
-<style>
+
+<style scoped>
 </style>
