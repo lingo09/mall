@@ -1,13 +1,25 @@
 <template>
   <div class="home">
-    <h2>这里是首页</h2>
+    <navbar>
+      <template v-slot:center>
+        <h2>首页</h2>
+      </template>
+    </navbar>
   </div>
 </template>
 
 <script>
+import navbar from "../../components/common/navbar/navbar.vue";
+
 export default {
   name: "home",
+  components: {
+    navbar,
+  },
 };
 </script>
 <style>
+.navbar {
+  background-color: rgb(255, 203, 203);
+}
 </style>
