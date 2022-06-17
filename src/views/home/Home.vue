@@ -14,8 +14,8 @@ import navbar from "../../components/common/navbar/navbar.vue";
 export default {
   name: "home",
   components: {
-    navbar,
-  },
+    navbar
+  }
 };
 </script>
 <style>
