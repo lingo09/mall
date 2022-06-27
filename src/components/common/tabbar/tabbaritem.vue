@@ -1,11 +1,11 @@
 <template>
-    <div class="tapbar-item" @click="changroute" :class="{active:isActive}">
+    <div class="tabbar-item" @click="changroute" :class="{active:isActive}">
         <slot></slot>
     </div>
 </template>
 <script>
     export default {
-        name: 'tapbaritem',
+        name: 'tabbaritem',
         props: {
             path: String
         },
@@ -25,14 +25,14 @@
     }
 </script>
 <style>
-    .tapbar-item {
+    .tabbar-item {
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
         text-align: center;
     }
 
-    .tapbar-item img {
+    .tabbar-item img {
         width: 30px;
         height: 30px;
     }

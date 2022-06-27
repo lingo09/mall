@@ -1,48 +1,45 @@
 <template>
   <div id="maintabbar">
-    <tapbar>
-      <tapbaritem path="/home">
-        <img
-          src="../../../assets/img/3138899_shadow_blue_google maps_google_maps_square_google map.svg"
-          alt=""
-        />
+    <tabbar>
+      <tabbaritem path="/home">
+        <img src="../../../assets/img/商城.png" alt="" />
         <div>首页</div>
-      </tapbaritem>
-      <tapbaritem path="/category">
+      </tabbaritem>
+      <tabbaritem path="/category">
         <img
-          src="../../../assets/img/3138895_shadow_blue_social_facebook_book_media_f.svg"
+          src="../../../assets/img/购物车空.png"
           alt=""
         />
         <div>购物</div>
-      </tapbaritem>
-      <tapbaritem path="/cart">
+      </tabbaritem>
+      <tabbaritem path="/cart">
         <img
-          src="../../../assets/img/3138903_play_red_you_shadow_youtube_tube_square.svg"
+          src="../../../assets/img/分类.png"
           alt=""
         />
         <div>分类</div>
-      </tapbaritem>
-      <tapbaritem path="/profile">
+      </tabbaritem>
+      <tabbaritem path="/profile">
         <img
-          src="../../../assets/img/3138902_twitter_shadow_social_tweet_media_square_blue.svg"
+          src="../../../assets/img/用户-圆.png"
           alt=""
         />
         <div>我的</div>
-      </tapbaritem>
-    </tapbar>
+      </tabbaritem>
+    </tabbar>
     <!-- <router-view></router-view> -->
   </div>
 </template>
 <script>
-import tapbar from "../../common/tapbar/tapbar.vue";
-import tapbaritem from "../../common/tapbar/tapbaritem.vue";
+import tabbar from "../../common/tabbar/tabbar.vue";
+import tabbaritem from "../../common/tabbar/tabbaritem.vue";
 
 export default {
   name: "maintabbar",
   components: {
-    tapbar,
-    tapbaritem,
-  },
+    tabbar,
+    tabbaritem
+  }
 };
 </script>
 <style>

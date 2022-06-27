@@ -1,15 +1,15 @@
 <template>
-    <div class="tapbar-class">
+    <div class="tabbar-class">
         <slot></slot>
     </div>
 </template>
 <script>
     export default {
-        name: 'tapbar'
+        name: 'tabbar'
     }
 </script>
 <style>
-    .tapbar-class {
+    .tabbar-class {
         height: 55px;
         width: 100%;
         position: fixed;
